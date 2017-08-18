@@ -13,12 +13,12 @@ public class TestPanier {
 		panier.getArticles().add(new Article("Beurre salé", "Produits laitiers", 1.8, true));
 		panier.getArticles().add(new Article("Camembert", "Produits laitiers", 2.8, false));
 		panier.getArticles().add(new Article("Yaourth", "Produits laitiers", 3.1, false));
+		
 		// En méthode impérative:
 		// a- écrire une méthode dans la classe panier qui filtre les articles et
 		// retourne uniquement les articles du panier qui sont en stock (enRupture=false)
 			
-		
-		
+				
 		// b- écrire une méthode dans la classe panier un peu plus générique
 		// qui prend en paramètre stock=O/N et un prix maximum et qui retourne la liste
 		// des articles du panier qui correspondent aux critères (cf. exemple 1)

@@ -26,8 +26,7 @@ public class Panier {
 			if (article.isEnRupture()!=stock && article.getPrix() < prixmax) {
 				listeFiltree2.add(article);
 			}
-				
-				
+						
 		}
 		return listeFiltree2;
 		
